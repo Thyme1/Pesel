@@ -1,10 +1,9 @@
 import java.util.ArrayList;
 
 public class countNumbers {
-    public static long getReady(ArrayList formattedInput) {
+    public static long getReady(ArrayList<String> formattedInput) {
 
-        long count = formattedInput.stream()
+        return formattedInput.stream()
                 .count();
-        return count;
     }
 }

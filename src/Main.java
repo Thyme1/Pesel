@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class Main {
 public static void main(String[] args) throws IOException {
@@ -7,8 +8,11 @@ public static void main(String[] args) throws IOException {
     ArrayList <String>  formattedInput = deleteDoubles.format(input);
     long numberOfPesels = countNumbers.getReady(formattedInput);
 
+    Stack <Long> numOfPeselsStack = new Stack<>();
+    numOfPeselsStack.push(numberOfPesels);
+
     String fileName = "Lista PESEL " + System.currentTimeMillis() + ".txt";
-    writeToFile.writeTFU(fileName, formattedInput, numberOfPesels);
+    writeToFile.writeTFU(fileName, formattedInput, numOfPeselsStack);
 
     }
 }

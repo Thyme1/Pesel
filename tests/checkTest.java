@@ -15,7 +15,7 @@ class checkTest {
     void correctNumberOfCharacters() {
         check checkCorrect = new check();
         boolean expected = false;
-        boolean actual = checkCorrect.correct("123");
+        boolean actual = check.correct("123");
         assertEquals(expected, actual);
     }
 
@@ -24,7 +24,7 @@ class checkTest {
    void incorrectPesel() {
         check checkCor = new check();
         boolean expected = false;
-        boolean actual = checkCor.correct("12345678912");
+        boolean actual = check.correct("12345678912");
         assertEquals(expected, actual);
     }
 
@@ -33,7 +33,7 @@ class checkTest {
     void correctPesel() {
         check checkCor = new check();
         boolean expected = true;
-        boolean actual = checkCor.correct("47042146521");
+        boolean actual = check.correct("47042146521");
         assertEquals(expected, actual);
     }
 
@@ -44,7 +44,6 @@ class deleteDoublesTest {
     @Test
     @DisplayName("Check if there are no multiple PESEL numbers")
     void multipleNumbers() {
-        deleteDoubles formmInput = new deleteDoubles();
         ArrayList<String> listaPeseli = new ArrayList<>();
 
         listaPeseli.add("71090767942");
@@ -55,12 +54,29 @@ class deleteDoublesTest {
         expected.add("71090767942");
         expected.add("82030867314");
 
-        Object actual = formmInput.format(listaPeseli);
+        Object actual = deleteDoubles.format(listaPeseli);
         assertEquals(expected, actual);
+    }
+}
+
+class countNumbersTest {
+
+        @Test
+        @DisplayName("Check if the numbers arte counted properly")
+        void counted() {
+            ArrayList<String> formattedInput = new ArrayList<>();
+            formattedInput.add("71090767942");
+            formattedInput.add("82030867314");
+            formattedInput.add("47042146521");
+            long expected = 3;
+            long actual = countNumbers.getReady(formattedInput);
+
+            assertEquals(expected, actual);
+        }
     }
 
 
-}
+
 
 
 

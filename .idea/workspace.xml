@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf0b10f6-95ac-4db9-a003-e49cf89cbc36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/countNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deleteDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteDoubles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finalFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/writeToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writeToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/formatInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/countNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/countNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/deleteDoubles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/deleteDoubles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/getInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/getInput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/writeToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/writeToFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/checkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/checkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/formatInputTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/deleteDoublesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/deleteDoublesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/checkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/checkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\Konrad\IdeaProjects\Pesel\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.checkTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Pesel" />
@@ -106,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.checkTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.deleteDoublesTest" />
-        <item itemvalue="JUnit.checkTest" />
         <item itemvalue="JUnit.checkTest.correctNumberOfCharacters" />
         <item itemvalue="JUnit.checkCorrect.correctNumberOfCharacters" />
       </list>
@@ -128,7 +128,7 @@
       <workItem from="1604682981422" duration="5561000" />
       <workItem from="1604704167250" duration="3503000" />
       <workItem from="1604769629078" duration="5000" />
-      <workItem from="1604771746359" duration="2985000" />
+      <workItem from="1604771746359" duration="5054000" />
     </task>
     <servers />
   </component>
@@ -156,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604773741216" />
-    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1604774182559">
+    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1604776834868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604774182559" />
-    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1604774182558">
+    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
+    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1604776834868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604774182558" />
-    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1604774182558">
+    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
+    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1604776834868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604774182558" />
-    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1604774182559">
+    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
+    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1604776834868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604774182559" />
+    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
     <state x="225" y="133" key="SettingsEditor" timestamp="1604684551982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
