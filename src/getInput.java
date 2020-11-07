@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class getInput {
 
-    public static ArrayList input(){
+    public static ArrayList<String> giveInput(){
         String runAgain = "t";
         Scanner scanner = new Scanner(System.in);
         String tempPesel; //aktualnie przetwarzany pesel
