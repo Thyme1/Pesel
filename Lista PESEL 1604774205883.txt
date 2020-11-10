@@ -1,3 +1,0 @@
-Liczba numerow PESEL w pliku wynosi: 2
-71090767942
-82030867314

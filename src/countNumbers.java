@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public class countNumbers {
-    public static long getReady(ArrayList<String> formattedInput) {
+    public static long getReady(List<String> formattedInput) {
 
         return formattedInput.stream()
                 .count();

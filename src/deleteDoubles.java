@@ -4,16 +4,13 @@ import java.util.stream.Collectors;
 
 public class deleteDoubles {
 
-    public static ArrayList<String> format(ArrayList input) {
+    public static List<String> format(ArrayList <String>  input) {
 
 
-        ArrayList<String>  distinctElements = (ArrayList<String>) input.stream()
+        return  input.stream()
                 .distinct()
                 .sorted()
                 .collect(Collectors.toList());
-
-
-        return distinctElements ;
 
     }
 }

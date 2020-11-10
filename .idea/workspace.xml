@@ -5,15 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/countNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deleteDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteDoubles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/writeToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writeToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/countNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/countNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/deleteDoubles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/deleteDoubles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/getInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/getInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/writeToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/writeToFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/checkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/checkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/deleteDoublesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/deleteDoublesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/checkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/checkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projekt-Java-Mieszka-cy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,7 +45,7 @@
       <recent name="C:\Users\Konrad\IdeaProjects\Pesel\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.checkTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Pesel" />
@@ -106,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.checkTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.checkTest" />
         <item itemvalue="JUnit.deleteDoublesTest" />
         <item itemvalue="JUnit.checkTest.correctNumberOfCharacters" />
         <item itemvalue="JUnit.checkCorrect.correctNumberOfCharacters" />
@@ -128,7 +121,8 @@
       <workItem from="1604682981422" duration="5561000" />
       <workItem from="1604704167250" duration="3503000" />
       <workItem from="1604769629078" duration="5000" />
-      <workItem from="1604771746359" duration="5054000" />
+      <workItem from="1604771746359" duration="5147000" />
+      <workItem from="1605006809180" duration="264000" />
     </task>
     <servers />
   </component>
@@ -144,6 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604683084161" />
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605006855055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605006855055" />
     <state x="697" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604704739987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,22 +154,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604773741216" />
-    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1604776834868">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605007085895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
-    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1604776834868">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605007085895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
-    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1604776834868">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605007085894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
-    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1604776834868">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085894" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605007085895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604776834868" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
     <state x="225" y="133" key="SettingsEditor" timestamp="1604684551982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604683587252" />
-    <state x="1146" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1604773137456">
+    <state x="1146" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1605007046404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1146" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604773137456" />
+    <state x="1146" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605007046404" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604685095459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
