@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf0b10f6-95ac-4db9-a003-e49cf89cbc36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/countNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deleteDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteDoubles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/writeToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writeToFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +119,9 @@
       <workItem from="1604704167250" duration="3503000" />
       <workItem from="1604769629078" duration="5000" />
       <workItem from="1604771746359" duration="5147000" />
-      <workItem from="1605006809180" duration="264000" />
+      <workItem from="1605006809180" duration="601000" />
+      <workItem from="1605192841409" duration="14000" />
+      <workItem from="1605202681533" duration="505000" />
     </task>
     <servers />
   </component>
@@ -150,26 +149,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604773145784" />
-    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1604773741216">
+    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1605192853293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604773741216" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605007085895">
+    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605192853293" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1605203244076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605007085895">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605203244076" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1605203244076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605007085894">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605203244076" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1605203244076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085894" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605007085895">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605203244076" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1605203244076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605007085895" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605203244076" />
     <state x="225" y="133" key="SettingsEditor" timestamp="1604684551982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,6 +177,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604683645456" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1605202890316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605202890316" />
     <state x="342" y="140" key="new project wizard" timestamp="1604683587252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

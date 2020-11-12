@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
@@ -10,9 +9,13 @@ public class writeToFile {
         File file = new File(fileName);
         FileWriter writer = new FileWriter(file, false);
         writer.write("Liczba numerow PESEL w pliku wynosi: " + numOfPeselsStack.peek() + "\n" );
-        for (String s : listaPESEL) {
-            writer.write(s + "\n");
-        }
+        listaPESEL.stream().forEach(str -> {
+            try {
+                writer.write(str + "\n");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
 
         writer.close();
 
